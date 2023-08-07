@@ -1,9 +1,9 @@
-let inputField = document.getElementById('inputField');
-let addTodo = document.getElementById('addTodo');
-let toDoList = document.getElementById('toDoList');
+const inputField = document.getElementById('inputField');
+const addTodo = document.getElementById('addTodo');
+const toDoList = document.getElementById('toDoList');
 
 addTodo.addEventListener('click', function(){
-    var list = document.createElement('li');
+    const list = document.createElement('li');
     if (!inputField.value)
         alert('내용을 입력해 주세요!');
     else {
